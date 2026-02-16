@@ -32,7 +32,7 @@ patterns-in-nature-outreach/
 Generates golden-ratio phyllotaxis patterns (sunflower spirals) with interactive parameters:  
 
 - Number of points  
-- Scale and radius power  
+- Radius power  
 - Divergence angle  
 - Point size, opacity, rotation  
 - Colormap and background color  
@@ -73,7 +73,7 @@ Generates interactive fractal tree patterns (flametrees) with:
 
 ### How to Run
 
-1. Open R or RStudio.  
+1. Open R  
 2. Navigate to the app folder:
 
 ```r
@@ -116,3 +116,4 @@ These tools are designed for **school-level STEM outreach**:
 - **Python app**: `tkinter` is required (comes with most Python installs).  
 - **R app**: Requires `shiny`, `flametree`, and `colourpicker`. Use `install_packages.R` to set up easily.  
 - Both apps are designed for **interactive exploration**, so performance may vary with very high settings.  
+
