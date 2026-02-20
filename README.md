@@ -64,6 +64,8 @@ You will see an interactive window to adjust parameters and generate the spiral.
 
 ## Flametree Explorer (R Shiny)
 
+Uses the R package `flametree`: https://flametree.djnavarro.net/ 
+
 Generates interactive fractal tree patterns (flametrees) with:
 
 - Growth time and number of trees sliders  
@@ -102,18 +104,178 @@ Images of outputs can be found in the `examples/` folder
 
 ---
 
-## Outreach Context
+------------------------------------------------------------------------
 
-These tools are designed for **school-level STEM outreach**:
+# The Golden Ratio & Phyllotaxis -- What Are We Exploring?
 
-- Explore mathematics and nature patterns visually  
-- Interact with generative algorithms in a hands-on way  
+## The Golden Ratio
 
----
+The golden ratio (φ) is an irrational number:
 
-## Notes
+    φ ≈ 1.618033988...
 
-- **Python app**: `tkinter` is required (comes with most Python installs).  
-- **R app**: Requires `shiny`, `flametree`, and `colourpicker`. Use `install_packages.R` to set up easily.  
-- Both apps are designed for **interactive exploration**, so performance may vary with very high settings.  
+It appears when a line is divided into two parts such that:
 
+    (whole / large part) = (large part / small part)
+
+This ratio appears in:
+
+-   Sunflowers\
+-   Pinecones\
+-   Shell spirals\
+
+
+It is closely related to the Fibonacci sequence:
+
+    1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+As the numbers grow, the ratio between consecutive Fibonacci numbers
+approaches the golden ratio.
+
+------------------------------------------------------------------------
+
+## Phyllotaxis -- The Mathematics of Leaf Arrangement
+
+Phyllotaxis means "leaf arrangement." It describes how plants arrange
+leaves, seeds, or petals around a stem.
+
+Many plants grow new seeds at a constant angle, the
+**golden angle**.
+
+### The Golden Angle
+
+The golden angle is approximately:
+
+    137.5°
+
+Each new seed is placed: - 137.5° from the previous one\
+- Slightly further from the center
+
+This creates extremely efficient packing --- the pattern seen in
+sunflowers.
+
+### Why 137.5°?
+
+Simple angles like 90°, 120°, or 180° cause overlapping rows and gaps.
+
+But 137.5° is an irrational fraction of a circle. The points never
+perfectly align, resulting in:
+
+-   Even spacing\
+-   No gaps\
+-   Maximum packing efficiency
+
+------------------------------------------------------------------------
+
+# Phyllotaxis Spiral (Python)
+
+Each point is placed using:
+
+    angle = n × divergence_angle  
+    radius = n^power  
+
+Where: - n = point number\
+- divergence_angle ≈ 137.5°\
+- power controls expansion rate
+
+Students can explore: - What happens when the angle changes\
+- How density changes with radius power
+
+------------------------------------------------------------------------
+
+# Fractals & Recursion -- How Trees Grow from Simple Mathemtical Principles
+
+The Flametree Explorer demonstrates two powerful mathematical ideas:
+
+-   **Fractals**
+-   **Recursion**
+
+These ideas explain how incredibly complex natural structures can grow
+from very simple rules.
+
+------------------------------------------------------------------------
+
+## What Is a Fractal?
+
+A fractal is a pattern that:
+
+-   Repeats at different scales\
+-   Shows self-similarity\
+-   Often has fine detail at every zoom level
+
+In simple terms:
+
+> A fractal is a shape made of smaller copies of itself.
+
+Examples in nature:
+
+-   Trees\
+-   Ferns\
+-   Lightning\
+-   River networks\
+-   Blood vessels\
+-   Coastlines
+
+------------------------------------------------------------------------
+
+## How Recursive Tree Growth Works
+
+A simple recursive tree rule might be:
+
+1.  Draw a branch forward\
+2.  Split into two smaller branches\
+3.  Repeat for each smaller branch\
+4.  Stop when branches become very small
+
+Even though the rule is simple, the final result looks complex and
+organic.
+
+This is how:
+
+-   Trees branch\
+-   Lungs divide into airways\
+-   Rivers split into streams
+
+Complexity emerges from repetition.
+
+------------------------------------------------------------------------
+
+## Why Fractals Matter
+
+Fractals help explain:
+
+-   Why trees are efficient at capturing sunlight\
+-   Why blood vessels efficiently deliver oxygen\
+-   Why river systems efficiently drain landscapes
+
+They maximise:
+
+-   Surface area\
+-   Coverage\
+-   Distribution efficiency
+
+------------------------------------------------------------------------
+
+# Flametree Explorer (R Shiny)
+
+Features:
+
+-   Growth time and number of trees sliders\
+-   Colour pickers\
+-   Style selection\
+-   Generate and Save PNG
+
+------------------------------------------------------------------------
+
+# Outreach Context
+
+These tools support discussions about:
+
+-   Mathematics in biology\
+-   Efficiency in natural systems\
+-   Fibonacci numbers and spirals\
+-   Fractals and recursion\
+-   Algorithmic art
+
+They encourage experimentation, observation, and connecting mathematics
+to the natural world.
