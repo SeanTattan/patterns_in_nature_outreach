@@ -120,9 +120,9 @@ It appears when a line is divided into two parts such that:
 
 This ratio appears in:
 
--   Sunflowers\
--   Pinecones\
--   Shell spirals\
+-   Sunflowers
+-   Pinecones
+-   Shell spirals
 
 
 It is closely related to the Fibonacci sequence:
@@ -161,8 +161,8 @@ Simple angles like 90°, 120°, or 180° cause overlapping rows and gaps.
 But 137.5° is an irrational fraction of a circle. The points never
 perfectly align, resulting in:
 
--   Even spacing\
--   No gaps\
+-   Even spacing
+-   No gaps
 -   Maximum packing efficiency
 
 ------------------------------------------------------------------------
@@ -174,8 +174,8 @@ Each point is placed using:
     angle = n × divergence_angle  
     radius = n^power  
 
-Where: - n = point number\
-- divergence_angle ≈ 137.5°\
+Where: - n = point number
+- divergence_angle ≈ 137.5°
 - power controls expansion rate
 
 Students can explore: - What happens when the angle changes\
@@ -199,8 +199,8 @@ from very simple rules.
 
 A fractal is a pattern that:
 
--   Repeats at different scales\
--   Shows self-similarity\
+-   Repeats at different scales
+-   Shows self-similarity
 -   Often has fine detail at every zoom level
 
 In simple terms:
@@ -213,9 +213,9 @@ In simple terms:
 
 A simple recursive tree rule can be:
 
-1.  Draw a branch forward\
-2.  Split into two smaller branches\
-3.  Repeat for each smaller branch\
+1.  Draw a branch forward
+2.  Split into two smaller branches
+3.  Repeat for each smaller branch
 4.  Stop when branches become very small
 
 Even though the rule is simple, the final result looks complex and
@@ -223,8 +223,8 @@ organic.
 
 This is how:
 
--   Trees branch\
--   Lungs divide into airways\
+-   Trees branch
+-   Lungs divide into airways
 -   Rivers split into streams
 
 Complexity emerges from repetition.
@@ -235,8 +235,8 @@ Complexity emerges from repetition.
 
 Fractals help explain:
 
--   Why trees are efficient at capturing sunlight\
--   Why blood vessels efficiently deliver oxygen\
+-   Why trees are efficient at capturing sunlight
+-   Why blood vessels efficiently deliver oxygen
 -   Why river systems efficiently drain landscapes
 
 They maximise:
@@ -251,9 +251,9 @@ They maximise:
 
 Features:
 
--   Growth time and number of trees sliders\
--   Colour pickers\
--   Style selection\
+-   Growth time and number of trees sliders
+-   Colour pickers
+-   Style selection
 -   Generate and Save PNG
 
 ------------------------------------------------------------------------
@@ -262,12 +262,13 @@ Features:
 
 These tools support discussions about:
 
--   Mathematics in biology\
--   Efficiency in natural systems\
--   Fibonacci numbers and spirals\
--   Fractals and recursion\
+-   Mathematics in biology
+-   Efficiency in natural systems
+-   Fibonacci numbers and spirals
+-   Fractals and recursion
 -   Algorithmic art
 
 They encourage experimentation, observation, and connecting mathematics
 to the natural world.
+
 
