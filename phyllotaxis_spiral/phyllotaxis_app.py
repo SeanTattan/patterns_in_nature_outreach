@@ -8,7 +8,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 
 
-# ---------- Phyllotaxis math ----------
+# ---------- Phyllotaxis maths ----------
 
 def generate_phyllotaxis(n_points=2000, c=4.0, divergence_deg=137.507764, power=0.5):
     n = np.arange(1, n_points + 1)
@@ -190,3 +190,4 @@ if __name__ == '__main__':
     app = PhylloApp(root)
     root.protocol("WM_DELETE_WINDOW", app.on_close)
     root.mainloop()
+
