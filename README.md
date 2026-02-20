@@ -207,20 +207,11 @@ In simple terms:
 
 > A fractal is a shape made of smaller copies of itself.
 
-Examples in nature:
-
--   Trees\
--   Ferns\
--   Lightning\
--   River networks\
--   Blood vessels\
--   Coastlines
-
 ------------------------------------------------------------------------
 
 ## How Recursive Tree Growth Works
 
-A simple recursive tree rule might be:
+A simple recursive tree rule can be:
 
 1.  Draw a branch forward\
 2.  Split into two smaller branches\
@@ -279,3 +270,4 @@ These tools support discussions about:
 
 They encourage experimentation, observation, and connecting mathematics
 to the natural world.
+
