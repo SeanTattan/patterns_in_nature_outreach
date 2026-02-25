@@ -231,33 +231,6 @@ Complexity emerges from repetition.
 
 ------------------------------------------------------------------------
 
-## Why Fractals Matter
-
-Fractals help explain:
-
--   Why trees are efficient at capturing sunlight
--   Why blood vessels efficiently deliver oxygen
--   Why river systems efficiently drain landscapes
-
-They maximise:
-
--   Surface area\
--   Coverage\
--   Distribution efficiency
-
-------------------------------------------------------------------------
-
-# Flametree Explorer (R Shiny)
-
-Features:
-
--   Growth time and number of trees sliders
--   Colour pickers
--   Style selection
--   Generate and Save PNG
-
-------------------------------------------------------------------------
-
 # Outreach Context
 
 These tools support discussions about:
@@ -270,5 +243,6 @@ These tools support discussions about:
 
 They encourage experimentation, observation, and connecting mathematics
 to the natural world.
+
 
 
